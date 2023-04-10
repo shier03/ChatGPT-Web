@@ -8,6 +8,16 @@ const show = ref(false)
 </script>
 
 <template>
+
+  <footer class="flex items-center justify-between min-w-0 p-2 overflow-hidden border-t dark:border-neutral-800">
+    <div class="flex-1 flex-shrink-0 overflow-hidden">
+        <a href="https://www.dsyydh.com" target="_blank" alt="电商运营导航">
+                <img src="http://124.223.186.89:81/wp-content/uploads/2023/04/kongque.jpg" alt="这个空缺">
+                </a>
+    </div>
+    <Setting v-if="show" v-model:visible="show" />
+  </footer>
+
   <footer class="flex items-center justify-between min-w-0 p-4 overflow-hidden border-t dark:border-neutral-800">
     <div class="flex-1 flex-shrink-0 overflow-hidden">
       <UserAvatar />
