@@ -486,9 +486,8 @@ onUnmounted(() => {
               <SvgIcon icon="ri:bubble-chart-fill" class="mr-2 text-3xl" />
               <span>Aha~</span>
             </div>
-          </template>
-					
-							<div>免费提供学习和测试，切勿发布至国内平台或微信分享</div>
+						
+													<div>免费提供学习和测试，切勿发布至国内平台或微信分享</div>
               <div>支持上下文，支持开启关闭联网模式，支持保存会话</div>
               <div>。</div>
               <div>。</div>
@@ -497,6 +496,8 @@ onUnmounted(() => {
               <div>
                 <img src="http://43.138.242.195:82/f.gif" alt="kele">
               </div>
+						
+          </template>
 							
           <template v-else>
             <div>
