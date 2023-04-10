@@ -482,12 +482,12 @@ onUnmounted(() => {
           :class="[isMobile ? 'p-2' : 'p-4']"
         >
           <template v-if="!dataSources.length">
-            <div class="flex items-center justify-center mt-4 text-center text-neutral-300">
+            <div class="flex items-center flex-col justify-center mt-4 text-center text-neutral-100">
               <SvgIcon icon="ri:bubble-chart-fill" class="mr-2 text-3xl" />
               <span>Aha~</span>
             </div>
 						
-													<div>免费提供学习和测试，切勿发布至国内平台或微信分享</div>
+							<div>免费提供学习和测试，切勿发布至国内平台或微信分享</div>
               <div>支持上下文，支持开启关闭联网模式，支持保存会话</div>
               <div>。</div>
               <div>。</div>
